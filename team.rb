@@ -1,8 +1,7 @@
 class Team
-	attr_accessor :name, :points
+	attr_accessor :name
 
-	def initialize
-		@name   = name
-		@points = 0
+	def self.initialize
+		@name = name
 	end
 end
